@@ -6,7 +6,7 @@ item p{
     margin: 6px 0;
 }
 
-.item-price {
+.item-price{
     display: flex;
     gap: 20px;
 }
