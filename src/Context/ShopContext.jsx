@@ -1,6 +1,6 @@
 import React, {createContext, useState} from "react";
 import all_product from '../Components/Assets/all_product'
-import CartItems from "../Components/CartItems/CartItems";
+    
 
 
 export const ShopContext = createContext(null);
@@ -43,7 +43,7 @@ const ShopContextProvider = (props) => {
 
     const getTotalCartItems = () =>{
         let totalItem = 0;
-        for(const item in CartItems)
+        for(const item in cartItems)
         {
             if(cartItems[item]>0)
             {
