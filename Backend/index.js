@@ -1,4 +1,5 @@
 require("dotenv").config();
+
 const dns = require('dns');
 dns.setDefaultResultOrder('ipv4first');
 dns.setServers(['8.8.8.8', '8.8.4.4']);
@@ -24,6 +25,26 @@ mongoose.connect(process.env.MONGO_URI)
 app.get("/", (req, res) => {
     res.send("Express App is running")
 })
+
+// Image storage engine
+
+const storage = multer.diskStorage({
+    destination: (req, file, cb) => {
+        cb(null, './upload/images')  
+    },
+    filename: (req, file, cb) => {
+        return cb(null, `${file.fieldname}_${Date.now()}${path.extname(file.originalname)}`)
+    }
+})
+
+const upload = multer({storage:storage})
+
+// creating upload endpoint for images
+
+app.post('/upload', upload.single('product'), (req,res)=>{
+
+})
+
 
 app.listen(port, (error) => {
     if (!error) {
