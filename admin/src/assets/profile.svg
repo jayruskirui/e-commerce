@@ -1,0 +1,42 @@
+<svg width="48" height="48" viewBox="0 0 680 720" preserveAspectRatio="xMinYMin meet" xmlns="http://www.w3.org/2000/svg">
+  <title>Professional avatar small</title>
+
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="340" cy="340" r="280"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="340" cy="340" r="280" fill="#F0E6DA"/>
+
+  <g clip-path="url(#circle-clip)">
+    <rect x="60" y="60" width="560" height="560" fill="#F0E6DA"/>
+    <ellipse cx="340" cy="520" rx="160" ry="80" fill="#2D3A5E"/>
+    <rect x="180" y="490" width="320" height="130" fill="#2D3A5E"/>
+    <ellipse cx="340" cy="500" rx="100" ry="50" fill="#FDDCBC"/>
+    <ellipse cx="340" cy="340" rx="105" ry="130" fill="#FDDCBC"/>
+    <ellipse cx="240" cy="360" rx="18" ry="28" fill="#FDDCBC"/>
+    <ellipse cx="440" cy="360" rx="18" ry="28" fill="#FDDCBC"/>
+    <path d="M235 210 Q240 185 270 175 Q310 162 340 160 Q370 162 410 175 Q440 185 445 210 Q450 240 445 260 Q430 230 400 220 Q370 212 340 212 Q310 212 280 220 Q250 230 235 260 Q230 240 235 210Z" fill="#3B2314"/>
+    <path d="M235 210 Q230 280 235 320 Q238 340 240 360" fill="none" stroke="#3B2314" stroke-width="18" stroke-linecap="round"/>
+    <path d="M445 210 Q450 280 445 320 Q442 340 440 360" fill="none" stroke="#3B2314" stroke-width="18" stroke-linecap="round"/>
+    <path d="M235 210 Q240 195 270 188 Q310 178 340 178 Q370 178 410 188 Q440 195 445 210 Q430 205 400 202 Q370 200 340 200 Q310 200 280 202 Q250 205 235 210Z" fill="#3B2314"/>
+    <ellipse cx="308" cy="310" rx="15" ry="9" fill="#fff"/>
+    <ellipse cx="372" cy="310" rx="15" ry="9" fill="#fff"/>
+    <circle cx="308" cy="310" r="7" fill="#5C3D2E"/>
+    <circle cx="372" cy="310" r="7" fill="#5C3D2E"/>
+    <circle cx="310" cy="308" r="2.5" fill="#fff"/>
+    <circle cx="374" cy="308" r="2.5" fill="#fff"/>
+    <path d="M293 292 Q308 286 323 292" fill="none" stroke="#3B2314" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M357 292 Q372 286 387 292" fill="none" stroke="#3B2314" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="340" cy="350" rx="8" ry="6" fill="#E8A882"/>
+    <path d="M315 390 Q328 402 340 404 Q352 402 365 390" fill="none" stroke="#C07A60" stroke-width="3" stroke-linecap="round"/>
+    <path d="M318 388 Q340 396 362 388" fill="#E88A70" opacity="0.5"/>
+    <ellipse cx="305" cy="375" rx="14" ry="8" fill="#F0A898" opacity="0.5"/>
+    <ellipse cx="375" cy="375" rx="14" ry="8" fill="#F0A898" opacity="0.5"/>
+    <rect x="200" y="460" width="280" height="160" fill="#2D3A5E"/>
+    <path d="M200 460 Q250 445 300 455 Q340 462 380 455 Q430 445 480 460 L480 490 Q430 478 380 485 Q340 492 300 485 Q250 478 200 490Z" fill="#3A4A72"/>
+  </g>
+
+  <circle cx="340" cy="340" r="280" fill="none" stroke="#C9A882" stroke-width="6"/>
+</svg>
