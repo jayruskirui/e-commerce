@@ -1,0 +1,30 @@
+<svg width="160" height="140" viewBox="0 0 160 140" xmlns="http://www.w3.org/2000/svg">
+  <title>Upload Area</title>
+
+  <!-- Rounded rectangle background -->
+  <rect x="2" y="2" width="156" height="136" rx="12" ry="12"
+        fill="#F7F7F7" stroke="#DEDEDE" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Cloud shape -->
+  <!-- Main cloud body -->
+  <ellipse cx="80" cy="62" rx="28" ry="20" fill="#C8C8C8"/>
+  <!-- Left puff -->
+  <circle cx="58" cy="68" r="16" fill="#C8C8C8"/>
+  <!-- Right puff -->
+  <circle cx="102" cy="68" r="16" fill="#C8C8C8"/>
+  <!-- Bottom fill to flatten cloud base -->
+  <rect x="42" y="68" width="76" height="16" fill="#C8C8C8"/>
+  <!-- Top left puff -->
+  <circle cx="66" cy="56" r="14" fill="#C8C8C8"/>
+  <!-- Top right puff -->
+  <circle cx="94" cy="56" r="14" fill="#C8C8C8"/>
+
+  <!-- Upload arrow (white) -->
+  <line x1="80" y1="78" x2="80" y2="56" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+  <polyline points="72,64 80,55 88,64" fill="none" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Upload text -->
+  <text x="80" y="112" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="14"
+        font-weight="500" fill="#A0A0A0" letter-spacing="0.5">Upload</text>
+</svg>

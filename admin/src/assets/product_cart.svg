@@ -1,0 +1,21 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <title>Add Product Icon</title>
+
+  <!-- Cart body -->
+  <path d="M6 8 L10 8 L14 28 L36 28 L40 14 L12 14" fill="none" stroke="#F5C842" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Cart fill -->
+  <path d="M12 14 L40 14 L36 28 L14 28 Z" fill="#F5C842" opacity="0.9"/>
+
+  <!-- Handle/pole -->
+  <path d="M6 8 L10 8 L12 14" stroke="#F5C842" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Wheels -->
+  <circle cx="18" cy="33" r="3" fill="#333"/>
+  <circle cx="32" cy="33" r="3" fill="#333"/>
+
+  <!-- Plus sign -->
+  <circle cx="36" cy="36" r="8" fill="#333"/>
+  <line x1="36" y1="31" x2="36" y2="41" stroke="#F5C842" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="31" y1="36" x2="41" y2="36" stroke="#F5C842" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
