@@ -31,14 +31,17 @@ const ListProduct = () => {
       <div className='listproduct-allproducts'>
         <hr/>
         {allproducts.map((product, index) => (
+          <>
           <div key={index} className='listproduct-format-main listproduct-format'>
-            <img src={product.image} alt='' className='listproduct-product-image' />
+            <img src={product.image} alt='' className='listproduct-product-icon' />
             <p>{product.name}</p>
             <p>${product.new_price}</p>
             <p>${product.old_price}</p>
             <p>{product.category}</p>
             <img src={cross_icon} alt='' className='listproduct-remove-icon' />
           </div>
+          <hr/>
+          </>
         ))}
       </div>
     </div>
