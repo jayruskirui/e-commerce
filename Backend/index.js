@@ -140,6 +140,39 @@ app.get ('/allproducts',async (req,res)=>{
     res.send(products);
 })
 
+// schema creating for user model
+const Users = mongoose.model('Users',{
+    name:{
+        type:String,
+    },
+    email:{
+        type:String,
+        unique:true,
+    },
+    password:{
+        type:String,
+    },
+    cartData:{
+        type:Object,
+    },
+    date:{
+        type:Date,
+        default:Date.now,
+    }
+})
+
+// creating endpoint for registering a user
+app.post('/signup', async (req,res) => {
+
+    let check = await Users.findOne({email:req.body.email});
+    if (check) {
+        return res.status(400).json({success:false, errors:"existing user"});
+    }
+    let cart = {};
+    for (let i = 0; i < 300; i++) {
+        cart[i]=0;
+    }
+})
 
 
 app.listen(port, (error) => {
