@@ -8,7 +8,9 @@ const Popular = () => {
 const [popularProducts, setPopularProducts] = useState([]);
 
 useEffect(() => {
-    fetch('http://localhost:4000/popularinwomen')
+    const API_URL = import.meta.env?.VITE_API_URL || process.env.REACT_APP_API_URL || 'http://localhost:4000';
+
+    fetch(`${API_URL}/popularinwomen`)
         .then((response) => response.json())
         .then((data) => setPopularProducts(data));
 }, [])

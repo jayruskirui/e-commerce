@@ -8,7 +8,9 @@ const [new_collection, setNew_collection] = useState([]);
 
 
 useEffect(() =>{
-    fetch('http://localhost:4000/newcollection')
+    const API_URL = import.meta.env?.VITE_API_URL || process.env.REACT_APP_API_URL || 'http://localhost:4000';
+
+    fetch(`${API_URL}/newcollection`)
     .then(response => response.json())
     .then(data => setNew_collection(data))
 },[]);
